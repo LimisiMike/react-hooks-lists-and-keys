@@ -17,7 +17,7 @@ function ColorList() {
     <div>
       <h1>Top 5 CSS Colors</h1>
       <ol>
-        <li style={{ color: colors[0] }}>{colors[0]}</li>
+        <li key={color} style={{ color: colors[0] }}>{colors[0]}</li>
           {/* display the array of <li> elements/colors here */}
           {colorElements}
       </ol>
